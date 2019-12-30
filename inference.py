@@ -1,3 +1,9 @@
+# Native Python imports
+import time
+import os
+import copy
+
+# External package imports
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -5,12 +11,8 @@ import numpy as np
 import torchvision
 from torchvision import datasets, models, transforms
 import matplotlib.pyplot as plt
-import time
-# You might not have tqdm, which gives you nice progress bars
-#!pip install tqdm
-from tqdm.notebook import tqdm
-import os
-import copy
+from tqdm import tqdm
+
 print("PyTorch Version: ",torch.__version__)
 print("Torchvision Version: ",torchvision.__version__)
 # Detect if we have a GPU available

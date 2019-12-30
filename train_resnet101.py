@@ -22,6 +22,13 @@ print("Data directory path is: {}".format(data_dir))
 # List contents of data_dir for sanity check #2
 print("Contents of data directory: {}".format(os.listdir(data_dir)))
 
+# Native Python imports
+import time
+import os
+import copy
+
+
+# External package imports
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -29,15 +36,13 @@ import numpy as np
 import torchvision
 from torchvision import datasets, models, transforms
 import matplotlib.pyplot as plt
-import time
-# You might not have tqdm, which gives you nice progress bars
-#!pip install tqdm
-#from tqdm.notebook import tqdm
 from tqdm import tqdm
-import os
-import copy
+
+
+# Print versions
 print("PyTorch Version: ",torch.__version__)
 print("Torchvision Version: ",torchvision.__version__)
+
 # Detect if we have a GPU available
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 if torch.cuda.is_available():
