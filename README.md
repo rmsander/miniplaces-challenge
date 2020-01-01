@@ -20,6 +20,12 @@
  * **Batch Size**: 128
  * **Learning Rate**: 0.001
  
+ ## Reports
+ You can find my reports for this project in this repository:
+ 
+ * **report_I.pdf** (Part I)
+ * **report_II.pdf** (Part II)
+ 
 ## Credits
 Thank you to the 6.869 team for sponsoring this mini project!
 
