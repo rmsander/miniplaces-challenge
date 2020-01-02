@@ -33,8 +33,8 @@
  ## Reports
  You can find my reports for this project in this repository:
  
- * **report_I.pdf** (Part I)
- * **report_II.pdf** (Part II)
+ * [**report_I.pdf**](https://github.com/rmsander/miniplaces-challenge/blob/master/report_I.pdf) (Part I)
+ * [**report_II.pdf**](https://github.com/rmsander/miniplaces-challenge/blob/master/report_II.pdf) (Part II)
  
 ## Credits
 Thank you to the 6.869 team for sponsoring this mini project!
